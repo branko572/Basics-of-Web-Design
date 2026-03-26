@@ -1,0 +1,186 @@
+/* Your code here */
+.title{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 17px;
+    background-color: aqua;
+
+
+}
+ul{
+
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+
+}
+.nav img{
+
+    width: 2.5%;
+    height: 45px;
+    border: dotted;
+
+}
+.nav a{
+    margin-top: 17px;
+    color: black;
+    font-size: 19px;
+}
+.img-div{
+
+    margin-left: 700px;
+    width: 25%;
+    margin-top: 90px;
+    display: flex;
+    height: 44vh;
+    background-repeat: no-repeat;
+    background-image: url(../../starter_petok/img/aurora-borealis.jpg);
+    align-items: center;
+    border: dashed;
+    border-color: red;
+    background-position: center;
+
+}
+.img-div p{
+
+    width: 50%;
+    margin-left: 10%;
+    margin-top: -16%;
+    font-size: 19px;
+    color: white;
+}
+.cards {
+    margin-bottom: 17px;
+    display: flex;
+    width: 50%;
+    margin-top: 50px;
+    gap: 30px;
+    align-items: center;
+    margin-left: 500px;
+    justify-content: space-evenly;
+
+
+}
+.cards .card{
+    border: black;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+}
+.card a{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 6px;
+    margin-left: 6px;
+    padding: 9px;
+    background: cyan;
+    margin-bottom: 9px;
+    border-radius: 9px;
+    color: white;
+}
+.card h2{
+
+    display: flex;
+    justify-content: center;
+
+}
+.divided{
+    background-color: gray;
+    padding: 9px;
+    display: flex;
+}
+.panel{
+    margin-bottom: 97px;
+    margin-left: 250px;
+    height: 36vh;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    gap: 30px;
+}
+.panel p{
+    width: 33%;
+    margin-left: 90px;
+
+}
+.panel h2{
+
+    width: 33%;
+    margin-left: 90px;
+}
+.contact{
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+}
+.contact-details{
+    width: 41%;
+    margin-right: 115px;
+}
+.contact-form .text-row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9px;
+}
+.textarea-form{
+
+    width: 100%;
+    height: 5vh;
+
+}
+.inputs-row{
+
+    display: flex;
+    gap: 30px;
+
+}
+.btn.btn-right{
+    margin-top: 9px;
+    width: 100%;
+}
+.contact-form{
+
+    margin-left: 200px;
+
+}
+footer{
+    background-color: lightskyblue;
+    display: flex;
+    padding: 5px;
+    gap: 30px;
+    margin-bottom: -9px;
+    width: 101%;
+    margin-left: -8px;
+}
+footer p span{
+    font-size: 25px;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+footer div{
+    width: 95%;
+}
+footer .text-center{
+    width: 21%;
+    margin-right: 25px;
+}
