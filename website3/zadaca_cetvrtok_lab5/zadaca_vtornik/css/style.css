@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main-navigation{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+
+}
+.navbar div:not(.navbar-header){
+    display: flex;
+    align-items: center;
+    gap: 1000px;
+}
+#home{
+    width: 101%;
+    background-image: url(../../../zadaca_cetvrtok_lab5/zadaca_vtornik/images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about .row{
+
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+
+}
+#blog .row{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.blog-masonry{
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.post-masonry{
+    width: 21%;
+}
+#contact .row{
+
+    display: flex;
+    flex-direction: row;
+    gap: 147px;
+    align-items: flex-end;
+
+}
+#contact .col-md-6.col-sm-6{
+    width: 500%;
+}
+#contact .col-md-6.col-sm-6 form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .col-md-12.col-sm-12{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.contact-detail{
+
+    width: 306%;
+
+}
+footer .row{
+
+    display: flex;
+    gap: 30px;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+
+}
+footer .col-md-6{
+
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+}
+footer .link-list{
+
+    display: flex;
+    flex-direction: column;
+
+}
