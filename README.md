@@ -1,2 +1,2 @@
 # Basics-of-Web-Design
-A collection website designs made with html and css using WebStorm
+Three hand-crafted websites built with pure HTML & CSS, covering layout, styling, and responsive design fundamentals all built using Webstorm
